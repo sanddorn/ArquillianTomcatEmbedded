@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+   <display-name>ContentType Proxy</display-name>
+   <servlet>
+      <servlet-name>ContentTypeProxy</servlet-name>
+      <servlet-class>de.bermuda.arquillian.example.ContentTypeProxyServlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>ContentTypeProxy</servlet-name>
+      <url-pattern>/proxy/*</url-pattern>
+   </servlet-mapping>
+</web-app>
